@@ -1,0 +1,995 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SoapClient
+</name>
+</assembly>
+<members>
+<member name="T:SoapClient.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SoapClient.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SoapClient.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SoapClient.TestSOAP.Screen">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.#ctor">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.GetScenarioCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.LoginCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.LogoutCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.SetBusinessDateCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.SetLocaleNameCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.SetSchemaModeCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB202000ClearCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB202000GetProcessStatusCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB202000GetSchemaCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB202000SetSchemaCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB202000ImportCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB202000ExportCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB202000SubmitCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB204000ClearCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB204000GetProcessStatusCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB204000GetSchemaCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB204000SetSchemaCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB204000ImportCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB204000ExportCompleted">
+<remarks/>
+</member>
+<member name="E:SoapClient.TestSOAP.Screen.RB204000SubmitCompleted">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.GetScenario(System.String)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.GetScenarioAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.GetScenarioAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.Login(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.LoginAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.LoginAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.Logout">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.LogoutAsync">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.LogoutAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.SetBusinessDate(System.DateTime)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.SetBusinessDateAsync(System.DateTime)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.SetBusinessDateAsync(System.DateTime,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.SetLocaleName(System.String)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.SetLocaleNameAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.SetLocaleNameAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.SetSchemaMode(SoapClient.TestSOAP.SchemaMode)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.SetSchemaModeAsync(SoapClient.TestSOAP.SchemaMode)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.SetSchemaModeAsync(SoapClient.TestSOAP.SchemaMode,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000Clear">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000ClearAsync">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000ClearAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000GetProcessStatus">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000GetProcessStatusAsync">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000GetProcessStatusAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000GetSchema">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000GetSchemaAsync">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000GetSchemaAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000SetSchema(SoapClient.TestSOAP.RB202000Content)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000SetSchemaAsync(SoapClient.TestSOAP.RB202000Content)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000SetSchemaAsync(SoapClient.TestSOAP.RB202000Content,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000Import(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.String[][],System.Boolean,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000ImportAsync(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.String[][],System.Boolean,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000ImportAsync(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.String[][],System.Boolean,System.Boolean,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000Export(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.Int32,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000ExportAsync(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.Int32,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000ExportAsync(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.Int32,System.Boolean,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000Submit(SoapClient.TestSOAP.Command[])">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000SubmitAsync(SoapClient.TestSOAP.Command[])">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB202000SubmitAsync(SoapClient.TestSOAP.Command[],System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000Clear">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000ClearAsync">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000ClearAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000GetProcessStatus">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000GetProcessStatusAsync">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000GetProcessStatusAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000GetSchema">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000GetSchemaAsync">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000GetSchemaAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000SetSchema(SoapClient.TestSOAP.RB204000Content)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000SetSchemaAsync(SoapClient.TestSOAP.RB204000Content)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000SetSchemaAsync(SoapClient.TestSOAP.RB204000Content,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000Import(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.String[][],System.Boolean,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000ImportAsync(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.String[][],System.Boolean,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000ImportAsync(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.String[][],System.Boolean,System.Boolean,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000Export(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.Int32,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000ExportAsync(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.Int32,System.Boolean,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000ExportAsync(SoapClient.TestSOAP.Command[],SoapClient.TestSOAP.Filter[],System.Int32,System.Boolean,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000Submit(SoapClient.TestSOAP.Command[])">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000SubmitAsync(SoapClient.TestSOAP.Command[])">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.RB204000SubmitAsync(SoapClient.TestSOAP.Command[],System.Object)">
+<remarks/>
+</member>
+<member name="M:SoapClient.TestSOAP.Screen.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.Command">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Command.FieldName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Command.ObjectName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Command.Value">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Command.Commit">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Command.IgnoreError">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Command.LinkedCommand">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Command.Descriptor">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.ElementDescriptor">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ElementDescriptor.DisplayName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ElementDescriptor.IsDisabled">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ElementDescriptor.IsRequired">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ElementDescriptor.ElementType">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ElementDescriptor.LengthLimit">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ElementDescriptor.InputMask">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ElementDescriptor.DisplayRules">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ElementDescriptor.AllowedValues">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.ElementTypes">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ElementTypes.String">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ElementTypes.AsciiString">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ElementTypes.StringSelector">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ElementTypes.ExplicitSelector">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ElementTypes.Number">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ElementTypes.Option">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ElementTypes.WideOption">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ElementTypes.Calendar">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ElementTypes.Action">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000ImportResult">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ImportResult.Processed">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ImportResult.Error">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ImportResult.Keys">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000PrimaryKey">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000PrimaryKey.SupplierID">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.Value">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Value.Message">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Value.IsError">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.Field">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.Attachment">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000ProductsServiceCommands">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ProductsServiceCommands.KeyProductID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ProductsServiceCommands.NewRow">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ProductsServiceCommands.RowNumber">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ProductsServiceCommands.DeleteRow">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ProductsServiceCommands.DialogAnswer">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.Key">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.NewRow">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RowNumber">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.DeleteRow">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.Answer">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000Products">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.DisplayName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.ProductID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.SupplierUnit">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.ConversionFactor">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.SupplierPrice">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.Active">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.StockUnit">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.UnitPrice">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.LastSupplierPrice">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.LastPurchaseDate">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.MinOrderQty">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Products.ServiceCommands">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000SupplierDetailsServiceCommands">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetailsServiceCommands.DeleteRow">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetailsServiceCommands.DialogAnswer">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetailsServiceCommands.Attachment">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000SupplierDetails">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.DisplayName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.ContactName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.Phone">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.Fax">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.Address">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.City">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.CountryID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.Region">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.PostalCode">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SupplierDetails.ServiceCommands">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000SuppliersServiceCommands">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SuppliersServiceCommands.KeySupplierID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SuppliersServiceCommands.EverySupplierID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SuppliersServiceCommands.DeleteRow">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SuppliersServiceCommands.DialogAnswer">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SuppliersServiceCommands.Attachment">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.EveryValue">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000Suppliers">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Suppliers.DisplayName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Suppliers.SupplierID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Suppliers.CompanyName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Suppliers.ServiceCommands">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000Actions">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.Save">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.Cancel">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.Insert">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.Delete">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.CopyDocumentCopyPaste">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.PasteDocumentCopyPaste">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.SaveTemplateCopyPaste">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.First">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.Previous">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.Next">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.Last">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Actions.SaveLoc">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.Action">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000Content">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Content.Actions">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Content.Suppliers">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Content.SupplierDetails">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000Content.Products">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000ImportResult">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000ImportResult.Processed">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000ImportResult.Error">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000ImportResult.Keys">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000PrimaryKey">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000PrimaryKey.CustomerID">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.Filter">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Filter.Field">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Filter.Condition">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Filter.Value">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Filter.Value2">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Filter.OpenBrackets">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Filter.CloseBrackets">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.Filter.Operator">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.FilterCondition">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.Equals">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.NotEqual">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.Greater">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.GreaterOrEqual">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.Less">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.LessOrEqual">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.Contain">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.StartsWith">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.EndsWith">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.NotContain">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.Between">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.IsNull">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterCondition.IsNotNull">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.FilterOperator">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterOperator.And">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.FilterOperator.Or">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000CustomersServiceCommands">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000CustomersServiceCommands.KeyCustomerID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000CustomersServiceCommands.EveryCustomerID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000CustomersServiceCommands.DeleteRow">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000CustomersServiceCommands.DialogAnswer">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000CustomersServiceCommands.Attachment">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000Customers">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.DisplayName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.CustomerID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.CompanyName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.ContactName">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.Phone">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.Fax">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.Address">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.City">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.CountryID">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.Region">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.PostalCode">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Customers.ServiceCommands">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000Actions">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.Save">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.Cancel">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.Insert">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.Delete">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.CopyDocumentCopyPaste">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.PasteDocumentCopyPaste">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.SaveTemplateCopyPaste">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.First">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.Previous">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.Next">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.Last">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Actions.SaveLoc">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000Content">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Content.Actions">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000Content.Customers">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.ProcessResult">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ProcessResult.Status">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ProcessResult.Seconds">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.ProcessResult.Message">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.ProcessStatus">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ProcessStatus.NotExists">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ProcessStatus.InProcess">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ProcessStatus.Completed">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ProcessStatus.Aborted">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.LoginResult">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.LoginResult.Code">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.LoginResult.Message">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.LoginResult.Session">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.ErrorCode">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ErrorCode.OK">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ErrorCode.INVALID_CREDENTIALS">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ErrorCode.INTERNAL_ERROR">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.ErrorCode.INVALID_API_VERSION">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.Parameter">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.SchemaMode">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.SchemaMode.Basic">
+<remarks/>
+</member>
+<member name="F:SoapClient.TestSOAP.SchemaMode.Detailed">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.GetScenarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.GetScenarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.GetScenarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.LoginCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.LoginCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.LoginCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.LogoutCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.SetBusinessDateCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.SetLocaleNameCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.SetSchemaModeCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000ClearCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000GetProcessStatusCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000GetProcessStatusCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000GetProcessStatusCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000GetSchemaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000GetSchemaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000GetSchemaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000SetSchemaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000ImportCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000ImportCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000ImportCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000ExportCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000ExportCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000ExportCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000SubmitCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB202000SubmitCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB202000SubmitCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000ClearCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000GetProcessStatusCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000GetProcessStatusCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000GetProcessStatusCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000GetSchemaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000GetSchemaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000GetSchemaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000SetSchemaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000ImportCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000ImportCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ImportCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000ExportCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000ExportCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000ExportCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000SubmitCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:SoapClient.TestSOAP.RB204000SubmitCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:SoapClient.TestSOAP.RB204000SubmitCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

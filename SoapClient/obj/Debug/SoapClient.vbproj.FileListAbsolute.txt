@@ -1,0 +1,11 @@
+C:\Users\INFOSOFT-EDPADILLA\AppData\Local\Temporary Projects\SoapClient\bin\Debug\SoapClient.exe.config
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\bin\Debug\SoapClient.exe.config
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\bin\Debug\SoapClient.exe
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\bin\Debug\SoapClient.pdb
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\bin\Debug\SoapClient.xml
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\obj\Debug\SoapClient.vbprojResolveAssemblyReference.cache
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\obj\Debug\SoapClient.Resources.resources
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\obj\Debug\SoapClient.vbproj.GenerateResource.Cache
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\obj\Debug\SoapClient.exe
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\obj\Debug\SoapClient.xml
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\obj\Debug\SoapClient.pdb
