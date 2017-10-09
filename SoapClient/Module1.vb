@@ -2,12 +2,20 @@
 Module Module1
 
     Sub Main()
+
+
         Using Context As New Screen
             Context.CookieContainer = New Net.CookieContainer()
             Context.Url = My.Settings.SoapClient_TestSOAP_Screen
             Context.Login(My.Settings.Login, My.Settings.Password)
 
             Try
+                Dim CustomerAccess As New Customer
+
+                Console.Write("Customer ID: ")
+                CustomerAccess.GetCustomer(Context, Console.ReadLine())
+
+                'SaveCustomer.CreateCustomer(Context)
 
             Catch ex As Exception
                 Console.WriteLine(ex)
