@@ -9,3 +9,4 @@ C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\Soa
 C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\obj\Debug\SoapClient.xml
 C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\obj\Debug\SoapClient.pdb
 C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\bin\Debug\PX.Soap.dll
+C:\Users\INFOSOFT-EDPADILLA\Documents\Visual Studio 2015\Projects\SoapClient\SoapClient\obj\Debug\SoapClient.vbprojResolveAssemblyReference.cache

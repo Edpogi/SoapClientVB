@@ -13,7 +13,13 @@ Module Module1
                 Dim CustomerAccess As New Customer
 
                 Console.Write("Customer ID: ")
-                CustomerAccess.GetCustomer(Context, Console.ReadLine())
+                CustomerAccess.DeleteCustomer(Context, Console.ReadLine())
+                'Dim id As String = Console.ReadLine()
+
+                'Console.Write("New Name: ")
+                'CustomerAccess.CustomerName = Console.ReadLine()
+                'CustomerAccess.UpdateCustomer(Context, id)
+                'CustomerAccess.GetCustomer(Context, Console.ReadLine())
 
                 'SaveCustomer.CreateCustomer(Context)
 

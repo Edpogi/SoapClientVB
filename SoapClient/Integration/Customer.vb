@@ -34,7 +34,28 @@ Public Class Customer
         Console.Read()
     End Sub
 
-    Public Sub UpdateCustomer(ByRef Context As Screen)
+    Public Sub UpdateCustomer(ByRef Context As Screen, ByVal CustomerID As String)
+        Console.WriteLine("Updating Customer Data of: ")
+        Dim CustomerSchema As RB202000Content = PX.Soap.Helper.GetSchema(Of RB202000Content)(Context)
+
+        Dim InitialCustomerIDFieldName As String = CustomerSchema.Customers.CustomerID.FieldName
+        Dim CustomerIDSelector As Field = CustomerSchema.Customers.CustomerID
+        CustomerIDSelector.FieldName += "!" + CustomerSchema.Customers.ServiceCommands.KeyCustomerID.FieldName
+
+        Dim Commands = New Command() {
+            New Value() With
+            {.Value = CustomerID, .LinkedCommand = CustomerIDSelector},
+            New Value() With
+            {.Value = CustomerName, .LinkedCommand = CustomerSchema.Customers.CompanyName},
+            New Value() With
+            {.Value = "Yes", .LinkedCommand = CustomerSchema.Customers.ServiceCommands.DialogAnswer},
+            CustomerSchema.Actions.Save
+        }
+
+        Context.RB202000Submit(Commands)
+        Console.WriteLine("Updated Successfully!")
+        Console.ReadLine()
+        'Commands here
 
     End Sub
 
@@ -59,5 +80,19 @@ Public Class Customer
         Console.ReadLine()
     End Sub
 
+    Public Sub DeleteCustomer(ByRef Context As Screen, ByVal CustomerID As String)
+        Console.WriteLine("Deleting Customer Data of: " + CustomerID)
+        Dim CustomerSchema As RB202000Content = PX.Soap.Helper.GetSchema(Of RB202000Content)(Context)
+
+        Dim Commands = New Command() {
+            New Value() With
+            {.Value = CustomerID, .LinkedCommand = CustomerSchema.Customers.CustomerID},
+            CustomerSchema.Actions.Delete
+        }
+
+        Context.RB202000Submit(Commands)
+        Console.WriteLine("Deleted Successfully!")
+        Console.ReadLine()
+    End Sub
 
 End Class
